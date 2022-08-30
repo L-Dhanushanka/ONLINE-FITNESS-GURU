@@ -1,0 +1,399 @@
+ body{
+	 background-color:#E6E6E6;
+	  background-image: url("../Images/bg13.jpg");
+	  height:100%;
+	 background-position:center;
+	 background-size:cover;
+ }
+a{ color:red;}
+ 
+ #fitness{
+	 font-style:italic;
+	 font-size:50px;
+	 margin:0;
+	 padding:0;
+ }
+ 
+  .logo{
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+ }
+ 
+ul.menu{
+	 list-style-type:none;
+	 margin: 0;
+	 padding: 0;
+	 background-color:#333; 
+	 overflow: hidden;
+ }
+ 
+ li.login1{
+	 line-height: 12px;
+     font-size: 8pt;
+     font-family: tahoma;
+     background-color:#333; 
+     position:absolute;
+     top:8px;
+     right:16px;
+ }
+ 
+ li.signup1{
+	 line-height: 12px;
+     font-size: 8pt;
+     font-family: tahoma;
+     background-color:#333; 
+     position:absolute;
+     top:8px;
+     right:100px;
+	
+ }
+ 
+
+
+
+
+
+
+ 
+ li.menu{
+	 float:left;	 
+ }
+ 
+ li.menu1{
+	 float:right
+ }
+ 
+ li a{
+	 display:block;
+	 color: white;
+	 text-align:center;
+	 padding:14px 16px;
+	 text-decoration:none;
+ }
+ 
+  li a:hover{
+	 background-color:pink;
+ }
+ 
+ .gfgf { 
+            margin: 3%; 
+            position: relative; 
+        }
+
+#slider{
+overflow: hidden;
+
+}
+#slider figure {
+	position: relative;
+	width:500%;
+	margin:0;
+	left:0;
+	animation:10s slider infinite;
+}
+#slider figure img {
+	float:left;
+	width:20%;
+//Automatic slide show
+}
+@keyframes slider 
+{
+0%{
+	left:0;
+}
+
+25%{ 
+	left:-100%;
+}
+45%{ 
+	left:-100%;
+}
+}
+
+#hr12{
+  border:  1px solid black;
+	margin :0;
+	}
+
+#h112{
+	color:red;
+	text-align:center;
+	font-size:75px;
+	margin:0;
+	background-color:#BDBDBD;
+	
+	}
+div.class12 a{
+	float:right;
+}
+#h212{
+	color:blue;
+	font-size:30px;
+	}
+	
+.click{
+
+	color:#FF0000;
+	font-family:poppins;
+	font-weight:300;
+	
+	text-transform:uppercase;
+	letter-spacing:2px;
+	cursor:pointer;
+	border-radius:0px;
+	transition:1.5s;
+}
+
+	
+div.main{
+	width:970px;
+	margin:20px;
+}
+
+div.main div.mainimage{
+	width:400px;
+	float:left;
+}
+
+div.main div.maintext{
+	color:#FAFAFA;
+	width:570px;
+	float:left;
+}
+div.mainimage h3{
+	margin-top:100px;
+}
+
+
+
+p{
+	font-size:20px;	
+}
+
+div.missionvision {
+	color:#FAFAFA;
+	width:1000;
+	background:#eee;
+}
+ div.ms-col{
+	margin:15px;
+	width:313.33px;
+	float:left;
+	}
+div.ms-col h2{
+	margin:30px;
+	width:313.33px;
+	font-size:30px;
+	
+}
+
+.text{
+	padding: 10px;
+	border-radius: 5px;
+    background:rgba(0,0,0,0.7);
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+	font-weight:300;
+    font-size: 20px;
+	color:#E0E0F8;
+}
+
+
+
+#clock {
+	font-family: monospace;
+	font-size: 35px;
+	border: 5px   ;
+	text-align: right;
+}
+
+
+.fitnessimage { 
+            position: absolute; 
+            top: 17px; 
+            left: 50px; 
+        }
+		
+
+
+.footer-distributed{
+	background: #700;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #ffffff;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}

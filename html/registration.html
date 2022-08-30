@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FitnessGuru Online Fitness Trainer</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../styles/project.css">
+	<script src= "../js/registration.js"></script>
+</head>
+<body>
+
+<img src="../images/logo1.jpg" width="200" height="200" class="logo">
+
+<li class="login1"><a href="login.html">Login</a></li>
+
+<center>
+     <h2 id="fitness"> ONLINE FITNESS TRAINER </h2>
+</center>
+
+<br/><br/><br/>
+
+<hr class="new1">
+
+<ul class="menu">
+	<li class="menu"><a href="Home_Page.html">Home</a></li>
+	<li class="menu"><a href="videos.html">Videos</a></li>
+	<li class="menu"><a href="">Workout Plans</a></li>
+	<li class="menu"><a href="">Trainers</a></li>
+	<li class="menu"><a href="">About Us</a></li>
+	<li class="menu"><a href="">Contact Us</a></li>
+	<li class="menu1"><a href="">My Account</a></li>
+</ul>
+<br/><br/>
+
+ <center>
+      <h1> Registration Form </h1>
+ </center>
+	  
+	  <br/><br/><br/>
+	  
+	  <form class="form-style-9" method="POST" action="../php/submitRegistration.php" onSubmit="return checkPassword()" >
+	     First Name:<br/>
+		 <input type="text" name="feild1" placeholder="First Name" required> <br/> <br/>
+		 
+		 Last Name:<br/>
+		 <input type="text" name="feild2" placeholder="Last Name" required> <br/> <br/>
+		 
+		 NIC Number:<br>
+		 <input type="text" name="feild3" placeholder="NIC" required> <br/> <br/>
+		 
+		 Gender:<br/>
+		 <input type="radio" name="feild4" checked > Male 
+         <input type="radio" name="feild4" > Female <br/> <br/>
+
+         Contact Number:<br/>
+         <input type="phone" name="feild5"
+         pattern="{0-9}{10}" placeholder="1234567890" required> <br/> <br/>	
+
+         Date of Birth:<br/>
+         <input type="date" name="feild6" required> <br/> <br/>
+        
+         Address:<br/>
+         <textarea name="feild7" rows="8" cols="50" required> 
+         </textarea> <br/> <br/>
+
+		 E-mail Address:<br/>
+         <input type="email" name="feild8"
+         placeholder="abc@gmail.com"
+         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" required> <br/> <br/>	
+
+         Password:<br/>
+         <input type="password" id="pwd"
+         pattern="(?=.+\d) (?=.+[a-z])(?=.+(A-Z]).{5,10}" required> <br/> <br/>
+
+         Confirm Password:<br/>
+         <input type="password" id="cnfrmpwd" required > <br/> <br/>
+
+         <br>
+		 
+		 <center>
+
+         <input class="inputStyle"
+         id="checkbox" type="checkbox"
+         onclick="enableButton()">
+         Accept privacy policy and terms. 
+		 <br/> <br/>
+		 <input type="submit"
+		 id="submitBtn" value="Submit" disabled> 
+		 </center>
+      </form>		 
+	  
+	  <br>
+
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Fitness<span>Guru</span></h3>
+
+				<p class="footer-links">
+					<a href="Home_Page.html" class="link-1">Home</a>
+					
+					<a href="#">Workout Plans</a>
+				
+					<a href="#">Trainers</a>
+				
+					<a href="#">About Us</a>
+					
+					<a href="#">Faq</a>
+					
+					<a href="#">Contact Us</a>
+				</p>
+
+				
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>324, George Street,</span> Colombo</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>011486781</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@fitnessguru.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About FitnessGuru</span>
+					FitnessGuru is an online fitness platform that helps you to be healthy and strong.
+				</p>
+				
+				<br/>
+				
+					<a href="https://www.facebook.com/"><i class="facebook">Facebook</i></a><br/>
+					<a href="https://www.twitter.com/"><i class="twitter">Twitter</i></a><br/>
+					<a href="https://www.linkedin.com/"><i class="linkedin">Linkedin</i></a><br/>
+					<a href="https://www.github.com/"><i class="github">Github</i></a><br/>
+					
+			</div>
+
+		</footer>
+
+</body>
+</html>

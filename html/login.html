@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FitnessGuru Online Fitness Trainer</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../styles/project.css">
+	<script src= "../js/myscript.js"></script>
+</head>
+<body>
+
+<img src="../images/logo1.jpg" width="200" height="200" class="logo">
+
+<center>
+     <h2 id="fitness"> ONLINE FITNESS TRAINER </h2>
+</center>
+
+<br/><br/><br/>
+
+<hr class="new1">
+
+<ul class="menu">
+	<li class="menu"><a href="Home_Page.html">Home</a></li>
+	<li class="menu"><a href="videos.html">Videos</a></li>
+	<li class="menu"><a href="">Workout Plans</a></li>
+	<li class="menu"><a href="">Trainers</a></li>
+	<li class="menu"><a href="">About Us</a></li>
+	<li class="menu"><a href="">Contact Us</a></li>
+	<li class="menu1"><a href="">My Account</a></li>
+</ul>
+<br/><br/>
+
+      <center>
+      <h1> User Login </h1>
+
+      <br/><br/><br/>
+	  
+	  <form action="#" onLogin="return checkUsername() && checkPassword()">
+	     User Name:<br/>
+		 <input type="text" name="username" placeholder="User Name" required> <br/> <br/>
+		
+         Password:<br/>
+         <input type="password" id="pwd1"
+         pattern="(?=.+\d) (?=.+[a-z])(?=.+(A-Z]).{5,10}" required> <br/> <br/>
+		 
+         <br>
+		 
+		 <a href="https://courseweb.sliit.lk/"> Forgot Password? </a>
+		 
+		 <br/><br/><br/><br/><br/>
+
+         <input class="inputStyle1"
+		 id="checkbox" type="checkbox"
+         onclick="enableButton1()">
+         Confirm the details you have entered<br/> <br/>
+		 <button id="loginBtn" value="Login" disabled> Login </button>
+		 </center>
+      </form>		 
+	  
+<br>
+
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Fitness<span>Guru</span></h3>
+
+				<p class="footer-links">
+					<a href="Home_Page.html" class="link-1">Home</a>
+					
+					<a href="#">Workout Plans</a>
+				
+					<a href="#">Trainers</a>
+				
+					<a href="#">About Us</a>
+					
+					<a href="#">Faq</a>
+					
+					<a href="#">Contact Us</a>
+				</p>
+
+				
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>324, George Street,</span> Colombo</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>011486781</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@fitnessguru.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About FitnessGuru</span>
+					FitnessGuru is an online fitness platform that helps you to be healthy and strong.
+				</p>
+
+				<br/>
+				
+					<a href="https://www.facebook.com/"><i class="facebook">Facebook</i></a><br/>
+					<a href="https://www.twitter.com/"><i class="twitter">Twitter</i></a><br/>
+					<a href="https://www.linkedin.com/"><i class="linkedin">Linkedin</i></a><br/>
+					<a href="https://www.github.com/"><i class="github">Github</i></a><br/>
+
+			</div>
+
+		</footer>
+
+</body>
+</html>
